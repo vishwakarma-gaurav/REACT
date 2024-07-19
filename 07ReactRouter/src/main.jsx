@@ -10,7 +10,7 @@ import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
 import Github from './components/GitHub/Github.jsx'
 
-const router = createBrowserRouter([
+const hello = createBrowserRouter([
   {
     path:'/',
     element: <Layout/>,
@@ -41,6 +41,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <RouterProvider router={hello}/>
   </React.StrictMode>,
 )
