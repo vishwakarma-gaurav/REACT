@@ -1,20 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Card from './components/card'
 
 function App() {
-  const [count, setCount] = useState(0)
-  let myobj = {
-    username : "Gaurav",
-    age : 21
-  }
+
   return (
     <>
       <h1 className='bg-green-400'>Tailwind</h1>
-      <Card channel = "gaurav"/>
-      <Card/>
+      <Card channel = "gaurav" dis = "Gaurav is bhakt of Ram"/>
+      <Card channel = "Shyam" dis = "Shyam is Krishna"/>
+      <Card channel = "Ram" dis = "Ram is vishnu"/> //we can pass objects in props
     </>
   )
 }
