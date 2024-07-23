@@ -1,0 +1,10 @@
+important things to keep in mind
+
+
+react-router-dom
+
+useState
+useEffect
+useRef
+useContext
+props
