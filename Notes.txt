@@ -1,10 +1,28 @@
 important things to keep in mind
 
 
-react-router-dom
+##react-router-dom
 
-useState
-useEffect
-useRef
-useContext
-props
+useNavigate
+route
+Link
+NavLink
+<a> tag causes reload in the website
+
+##useState
+##useEffect
+##useRef
+
+
+## useContext 
+
+syntax is must 
+provider
+
+<NameContext.Provider></closing tag>
+
+
+
+## props
+ 
+mostly used to pass the values from one jsx file to the other
